@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    height: 5px;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 12px;
+}
+
+a.navbuttons{
+    color: white;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+div.about{
+    padding: 150px 25px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1.about1{
+    width:1320px;
+    position: absolute;
+    top: 100px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 8px;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 89.6%;
+    padding: 75px;
+    height: 100vh;
+    background-image: url('bg.jpg');
+}
+
+span.search-bar{
+    position: absolute;
+    right: 245px;
+    top: 20px; 
+    padding: 30px;
+}
+
+input.text{
+    border-radius: 35px;
+    height: 35px;
+    width: 250px;
+    color: rgb(133, 130, 130);
+    text-align: center;
+    background-color: rgb(32, 31, 31);
+    font-size: 18px;
+}
+
+div.Subscription{
+    margin: 10px;
+    padding: auto;
+}
+
+.bottom{
+    position:sticky;
+    height: 100px;
+    opacity: 0.75;
+    background-color: rgb(36, 36, 36);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+#not-home{
+    position: absolute;
+    bottom: 0;
+}
+.icons{
+    margin: 12px 0;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 0 12px ;
+}
+
+#play{
+    position: relative;
+    top: 8px
+}
+#sound{
+    position: absolute;
+    right: 0;
+    width: 10px;
+}
+
+#myProgressBar {
+    width: 100vw;
+    position: absolute;
+    cursor: pointer;
+    position: relative;
+    height: 2px;
+    /* top: 1px; */
+}
+
+.songItemContainer{
+    margin: 75px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    margin: 10px;
+    width: 430px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 0;
+    height: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#volume{
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+h3{
+    position: absolute;
+    right: 275px;
+    bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: small;
+    font-weight: 100;
+}
+
+#sound{
+    position: absolute;
+    right: 150px;
+    bottom: 30px;
+}
+
+#suffle{
+    position: relative;
+    right: 20px;
+}
+
+#repeat{
+    position: relative;
+    left: 20px;
+}
+
+div.albums{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    padding: 150px 10px;
+    justify-content: horizontal;
+    
+}
+
+img.alb{
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1.album-header{
+    position: relative;
+    text-align: center;
+    /* border-bottom: 2px solid #f1f1f1; */
+    top: 100px;
+    font-family: 'Varela Round', sans-serif;  
+}
+
+#gif1{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif2{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif3{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif4{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif5{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif6{
+    border-radius: 0;
+    opacity: 0;
+}
+#gif7{
+    border-radius: 0;
+    opacity: 0;
+}
+
+#info{
+    height: 20px;
+}
+
