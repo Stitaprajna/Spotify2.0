@@ -104,7 +104,7 @@ div.Subscription{
 .bottom{
     position:sticky;
     height: 100px;
-    opacity: 0.75;
+    opacity: 0.6;
     background-color: rgb(36, 36, 36);
     bottom: 0;
     display: flex;
@@ -134,7 +134,7 @@ div.Subscription{
 #sound{
     position: absolute;
     right: 0;
-    width: 10px;
+    width: 8px;
 }
 
 #myProgressBar {
@@ -277,3 +277,46 @@ h1.album-header{
     height: 20px;
 }
 
+/* ---------Login Page--------- */
+.formbox{
+    position: absolute;
+    padding: 260px 260px;
+    height: 10px;
+    width: 70px;
+    margin: 100px 500px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+div.submit{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.formbox p{
+    padding: 10px 0;
+    font-weight: bold;
+    color:#419c00;
+    outline: none;
+}
+
+.formbox input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 150px;
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #419c00;
+}
+
+
+
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus{
+    
+}
